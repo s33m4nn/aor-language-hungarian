@@ -1,0 +1,24 @@
+{
+  "name": "aor-language-hungarian",
+  "version": "1.0.0",
+  "description": "Hungarian translations for admin-on-rest, the frontend framework for building admin applications on top of REST services",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/s33m4nn/aor-language-hungarian.git"
+  },
+  "keywords": [
+    "react",
+    "admin-on-rest",
+    "translation"
+  ],
+  "author": "BlackBox Vision",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/s33m4nn/aor-language-hungarian/issues"
+  },
+  "homepage": "https://github.com/s33m4nn/aor-language-hungarian#readme"
+}
