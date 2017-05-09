@@ -37,10 +37,11 @@ module.exports = {
             about: 'Névjegy',
         },
         navigation: {
+            no_results: 'Nincs egyetlen bejegyzés sem.',
             page_out_of_boundaries: 'A megadott oldalszám (%{page}) nem elérhető',
             page_out_from_end: 'Az utolsó oldalnál tovább nem lehet lapozni',
             page_out_from_begin: 'Az első olalnál előrrébb nem lehet lapozni',
-            page_range_info: '%{offsetBegin}-%{offsetEnd} közöttiek listázva a(z) %{total} darabból.',
+            page_range_info: '%{offsetBegin}-%{offsetEnd} a(z) %{total} darabból.',
             next: 'Következő',
             prev: 'Előző',
         },
@@ -60,6 +61,12 @@ module.exports = {
         },
         validation: {
             required: 'Kitöltendő',
+            minLength: 'Legalább %{min} karakter hosszú legyen',
+            maxLength: 'Nem lehet több, mint %{max} karakter hosszú legyen',
+            minValue: 'Legalább %{min} legyen',
+            maxValue: 'Nem lehet több, mint %{max} legyen',
+            number: 'Szám legyen',
+            email: 'Helyes email legyen',
         },
     },
 };
